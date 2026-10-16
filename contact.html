@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Portside</title>
+<meta name="description" content="Book a free 30-minute audit call. Tell us what you run today and we reply within one business day.">
+<meta name="theme-color" content="#EEF0EC">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Portside, home"><span class="mark" aria-hidden="true"></span>Portside</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn-sm" href="contact.html">Book an audit call</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <h1 class="rise" style="--i:0">Tell us what you are running today.</h1>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap contact-grid">
+
+      <div class="rise" style="--i:1">
+        <p class="lede">Send your website address and your rough monthly ad budget. We use them to prepare the audit before we speak.</p>
+        <ol class="next-steps">
+          <li><span class="mono">Day 1</span><span>We reply with times for a 30-minute call.</span></li>
+          <li><span class="mono">Call</span><span>We look at your site and ad accounts with you on screen.</span></li>
+          <li><span class="mono">Day 3</span><span>You get a written audit and a fixed quote, if you want one.</span></li>
+        </ol>
+        <p style="margin-top:28px">Prefer email? <a class="link" href="mailto:hello@portside.example">hello@portside.example</a></p>
+        <p class="fine">We reply within one business day. Your details are used to answer you and nothing else.</p>
+      </div>
+
+      <form id="contact-form" class="form rise" style="--i:2" data-email="hello@portside.example">
+        <div class="two">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="website">Website <span class="opt">(optional)</span></label><input id="website" name="website" type="url" inputmode="url" placeholder="https://" autocomplete="url"></div>
+        <fieldset class="field">
+          <legend>What do you need?</legend>
+          <div class="checks">
+            <label><input type="checkbox" name="needs" value="Social media"> Social media</label>
+            <label><input type="checkbox" name="needs" value="Paid ads"> Paid ads</label>
+            <label><input type="checkbox" name="needs" value="Website"> Website</label>
+            <label><input type="checkbox" name="needs" value="Site management"> Site management</label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="budget">Monthly ad budget</label>
+          <select id="budget" name="budget">
+            <option value="">Choose one</option>
+            <option>Not running ads yet</option>
+            <option>Under $1,500</option>
+            <option>$1,500 to $5,000</option>
+            <option>$5,000 to $15,000</option>
+            <option>Over $15,000</option>
+          </select>
+        </div>
+        <div class="field"><label for="message">Anything we should know? <span class="opt">(optional)</span></label><textarea id="message" name="message"></textarea></div>
+        <div><button class="btn" type="submit">Request my audit call</button></div>
+        <p id="form-note" class="form-note" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Portside</a>
+        <p class="small">Social media, paid ads and websites for businesses that already have customers and want more of them.</p>
+      </div>
+      <ul aria-label="Pages">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div>
+        <p style="margin:0 0 6px">Write to us</p>
+        <a class="link" href="mailto:hello@portside.example">hello@portside.example</a>
+        <p class="small">We reply within one business day.</p>
+      </div>
+    </div>
+    <p class="legal">&copy; 2026 Portside. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/content.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
